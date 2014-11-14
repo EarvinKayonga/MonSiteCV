@@ -55,5 +55,66 @@ footer a:hover{
 
 /***********************HEADER********************************/
 
+.haut-gauche{
+	float:left;
+	width: 700px;
+	height: 75px;
+}
 
+.haut-gauche h1{
+	color: #000;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px;
+	margin: 10px 0 0 55px;
+}
+
+.haut-gauche h2{
+	margin: 5px 0 0 0;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.haut-gauche h2 span{
+	color: #8daab7;
+}
+
+.haut-droit{
+	float: left;
+	width: 300px;
+	height: 75px;
+
+}
+
+.haut-droit a{
+	display: block;
+	color: #8daab7;
+	text-align: right;
+
+}
+
+.haut-droit a:first-child{
+	margin-top: 10px;
+}
+
+.haut-droit a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	width: 510px;
+	margin: 0 auto;
+	height: 30px;
+}
+
+nav a{
+	line-height: 30px;
+	color: #000;
+	float: left; 
+	padding: 0 35px;
+}
+nav a:hover{
+	color: #fff;
+	background: #8daab7;
+	border-radius: 10px;
+}
 /***********************HEADER********************************/
