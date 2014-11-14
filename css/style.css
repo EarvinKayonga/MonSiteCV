@@ -121,9 +121,70 @@ nav a:hover{
 
 /*************************ACCUEIL**************************/
 
+
+
+.milieu-gauche{
+	float: left;
+	width: 600px;
+
+}
+
+.milieu-gauche h1, .milieu-gauche h2{
+	font-size: 21px;
+	color: #8daab7;
+	margin-bottom: 7px;
+
+}
+
 .fiche{
 	float: left;
+	margin-right: 7px;
+}
+
+.graphique{
+	margin: 20px 0 0 150px;
+}
+
+.milieu-gauche ul li{
+	list-style-type: none;
+	margin: 10px 0;
+	background: url(../img/fleche.jpg) left center no-repeat;
+	padding-left: 30px;
+}
+
+.italic{
+	font-style: italic;
 }
 
 
+.milieu-droit{
+	float: left;
+	width: 400px;
+}
+
+.milieu-droit .cadre{
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+	width: 300px;
+	margin: 15px 0;
+	float: right; /* Garantir l'alignement avec les borders virtuels du site.*/
+}
+
+.milieu-droit .cadre h2{
+	color: #333;
+	font-size: 15px;
+	text-align: center;
+	padding: 5px 10px;
+	background: #f2f3f3;
+	border-bottom: 1px solid #c0c0c0;
+	border-radius: 10px 10px 0 0; /*  Palier au incohérence des couleurs à l'intérieur des H2 */
+}
+
+.milieu-droit .cadre p,.milieu-droit .cadre ul, .milieu-droit .cadre iframe{
+	padding: 10px;
+
+}
+ .milieu-droit .cadre ul{
+ 	list-style-type: none;
+ }
 /*************************ACCUEIL**************************/
