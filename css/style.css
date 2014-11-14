@@ -188,3 +188,112 @@ nav a:hover{
  	list-style-type: none;
  }
 /*************************ACCUEIL**************************/
+
+
+/*************************MONCV*****************************/
+
+.cv-gauche{
+	float: left;
+	width: 200px;
+
+}
+
+.cv-gauche ul li{
+	list-style-type: none;
+	margin: 10px 0;
+	padding-left: 39px;
+	background:url(../img/fleche2.png) left center no-repeat;
+}
+
+.cv-droit{
+	float: left;
+	width: 800px;
+}
+
+.cv-gauche ul a{
+	color: #8daab7;
+	font-weight: bold;/* 100 à 700 pour pouvoir jouer sur l'épaissement du font*/
+
+}
+
+.cv-gauche ul a:hover{
+	color: #000;
+}
+
+#slide{
+	width: 700px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;/*cacher tout ce qui dépasse */
+
+
+}
+#defilement{
+	width: 700px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.9s ease;
+}
+
+
+article{
+	width: 700px;
+}
+
+.competences-slide{position: absolute;top: 0;left: 700px;}
+.activites-slide{position: absolute;top: 0;left: 1400px;}
+.experiences-slide{position: absolute;top: 0;left: 2100px;}
+.logiciels-slide{position: absolute;top: 0;left: 2800px;}
+.langues-slide{position: absolute;top: 0;left: 3500px;}
+.loisirs-slide{position: absolute;top: 0;left: 4200px;}
+
+
+
+#competences:target #defilement{
+	left: -700px;
+}
+#activites:target #defilement{
+	left: -1400px;
+}
+#experiences:target #defilement{
+	left: -2100px;
+}
+#logiciels:target #defilement{
+	left: -2800px;
+}
+#loisirs:target #defilement{
+	left: -3500px;
+}
+#langues:target #defilement{
+	left: -4200px;
+}
+
+
+
+
+
+
+
+
+
+/******************************MONCV*********************************/
+
+
+
+/**************************Mes** Projets*******************************/
+.mes-projets-haut{
+	text-align: justify;
+}
+.mes-projets-bas h2, .mes-projets-haut h2{
+	margin: 50px 0 20px 0;
+	color: #8daab7;
+
+}
+
+
+
+
+
+
+/**************************Mes** Projets*******************************/
